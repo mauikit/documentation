@@ -1,0 +1,62 @@
+digraph "Tagging::id"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node165 [label="Tagging::id",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node165 -> Node166 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node166 [label="Tagging::app",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a2cde86115e636c337a11765f62daf776",tooltip=" "];
+  Node166 -> Node167 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node167 [label="Tagging::setApp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a8a55be08de02a70703ab5fae75de480b",tooltip=" "];
+  Node167 -> Node168 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node168 [label="Tagging::Tagging",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#afe9c4358af8707d5024dcfb40d67d438",tooltip=" "];
+  Node168 -> Node169 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node169 [label="Tagging::getInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a7e834244f19d8e0873f728325a8a100a",tooltip=" "];
+  Node169 -> Node170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node170 [label="FM::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a2963953441035d07e786165e7fa31d27",tooltip=" "];
+  Node170 -> Node171 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node171 [label="FM::FM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a407bfd40f7070f79a04386a2332ecd59",tooltip=" "];
+  Node165 -> Node172 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node172 [label="Tagging::tag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a07318e6b117e0d35c9a7a1ad7c00d4d0",tooltip=" "];
+  Node172 -> Node173 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node173 [label="Tagging::tagUrl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a3b9718cc91115778a013af41e8f29da5",tooltip=" "];
+  Node173 -> Node174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node174 [label="Tagging::updateUrlTags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a631b0021514fd73853208fa93af73d57",tooltip=" "];
+  Node174 -> Node175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node175 [label="TagsList::updateToUrls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a2cabbc71124d6c58a033076ad2c27181",tooltip=" "];
+  Node172 -> Node176 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node176 [label="Tagging::tagAbstract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a49563646c1684a61f079e2732ea334c1",tooltip=" "];
+  Node176 -> Node177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node177 [label="Tagging::updateAbstractTags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#ac9d08197884f6bd09afe8e84cde5827e",tooltip=" "];
+  Node177 -> Node178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node178 [label="TagsList::updateToAbstract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a8a9246dd7a10fe7e3f36b0ee40b4dba9",tooltip=" "];
+  Node172 -> Node174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node172 -> Node177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node172 -> Node179 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node179 [label="Tagging::getUrls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#ac4266444a62536761195a0ecf800b97a",tooltip=" "];
+  Node172 -> Node180 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node180 [label="Tagging::removeAbstractTag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a38fdfb7dd0ce30980ad2260f76689aa0",tooltip=" "];
+  Node180 -> Node181 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node181 [label="Tagging::removeAbstractTags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#abebfcef5989f504f84dfb151cf06639b",tooltip=" "];
+  Node181 -> Node177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node180 -> Node182 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node182 [label="TagsList::removeFromAbstract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#adf655c1ba80195d9df464b96053d2d02",tooltip=" "];
+  Node180 -> Node183 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node183 [label="TagsList::removeFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a2d12d5f044db2df95d868de4104984a1",tooltip=" "];
+  Node172 -> Node181 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node172 -> Node184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node184 [label="Tagging::removeUrlTags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a298c85ff92866287b3dcb0cb59bc1862",tooltip=" "];
+  Node184 -> Node174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node172 -> Node185 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node185 [label="Tagging::removeUrlTag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#aada83938c145e6a6fb333eb758353602",tooltip=" "];
+  Node185 -> Node184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node185 -> Node186 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node186 [label="TagsList::removeFromUrls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a5dafe78c93d707188f842f45119f23a8",tooltip=" "];
+  Node185 -> Node187 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node187 [label="TagsList::removeFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a81149c7a5e5989e5fffeeb2de07f80e7",tooltip=" "];
+  Node165 -> Node188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node188 [label="Tagging::user",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a1e2dc1231e33e88810cf1a72bd5da1c9",tooltip=" "];
+  Node188 -> Node166 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

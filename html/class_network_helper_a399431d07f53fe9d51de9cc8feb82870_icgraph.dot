@@ -1,0 +1,61 @@
+digraph "NetworkHelper::setRequestAuthHeader"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node35 [label="NetworkHelper::setRequest\lAuthHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="NetworkHelper::makePutRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_helper.html#a03b6ef15708fbcb872e77b5f098c620b",tooltip=" "];
+  Node36 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="WebDAVClient::uploadTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a168ca7ab3edc10ab4026f6bae9a43b96",tooltip=" "];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="WebDAVItem::upload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_item.html#a6d1fffc54c8841f104113a0f6623b945",tooltip=" "];
+  Node37 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="TestWebDAVClient::testUpload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_web_d_a_v_client.html#a8db7cb433930c3b572c4b435085e0ba0",tooltip=" "];
+  Node37 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="Syncing::upload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing.html#a9faa666c33d7ea762b127eb03cb971d6",tooltip=" "];
+  Node40 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="FM::copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#ae8d94b51a8940f8a426ff0868f769f28",tooltip=" "];
+  Node41 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="FM::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a2963953441035d07e786165e7fa31d27",tooltip=" "];
+  Node42 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="FM::FM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a407bfd40f7070f79a04386a2332ecd59",tooltip=" "];
+  Node35 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="NetworkHelper::makeRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_helper.html#ae02921e158bb6478658d3326dd73ad0a",tooltip=" "];
+  Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="WebDAVClient::copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a7cb1d6bb26287c91247eac97dd7a4e9f",tooltip=" "];
+  Node45 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="WebDAVItem::copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_item.html#af49407e905c37053eca20991106ca60b",tooltip=" "];
+  Node45 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="TestWebDAVClient::testCopyDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_web_d_a_v_client.html#a1ab29537ac7a35ec98677ced688e95f8",tooltip=" "];
+  Node44 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="WebDAVClient::createDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#add7bae4b949eb0b63ffdca710b65efd4",tooltip=" "];
+  Node48 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="WebDAVItem::createDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_item.html#afab34ee6b1e14ae07f06302e0f0f10cf",tooltip=" "];
+  Node48 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="TestWebDAVClient::testCreateDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_web_d_a_v_client.html#aebb81d0472b84f23f19a103c259f3abd",tooltip=" "];
+  Node48 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="Syncing::createDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing.html#a1fb436d36ff2889789c7b5833939c51a",tooltip=" "];
+  Node51 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="FM::createCloudDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#ad413e4f405532e924ace69cbe80ddbee",tooltip=" "];
+  Node44 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="WebDAVClient::downloadFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a94d2950154df3125d02ba4ea1d0d4cd6",tooltip=" "];
+  Node44 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="WebDAVClient::listDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a206788b716ffc0fcce5a7236e62bb2b5",tooltip=" "];
+  Node44 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="WebDAVClient::move",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a3c846a97a8ed7bbb9b4b95d7b5842bf7",tooltip=" "];
+  Node55 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="WebDAVItem::move",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_item.html#a79a79c579eb97d4b3c0cd45f03820eca",tooltip=" "];
+  Node55 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="TestWebDAVClient::testMoveDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_web_d_a_v_client.html#a568fc410cbf436bdc2d9c9da3042c640",tooltip=" "];
+  Node44 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="WebDAVClient::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a4618e31d763ce09662253d6d8fb6e6d9",tooltip=" "];
+  Node58 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="WebDAVItem::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_item.html#a9f31b9a282138c19de6887a9f0c842d6",tooltip=" "];
+  Node58 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="TestWebDAVClient::testRemove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_web_d_a_v_client.html#a7037977a664338362e8ca871071fd79a",tooltip=" "];
+  Node58 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="TestWebDAVClient::testRemoveDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_web_d_a_v_client.html#a74db88d8faeb09d822df9a0feb51db72",tooltip=" "];
+}

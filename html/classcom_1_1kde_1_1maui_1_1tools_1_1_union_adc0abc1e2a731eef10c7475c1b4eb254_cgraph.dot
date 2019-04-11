@@ -1,0 +1,11 @@
+digraph "com.kde.maui.tools.Union.getContacts"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="com.kde.maui.tools.Union.get\lContacts",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="com.kde.maui.tools.Union.\lAPIVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1kde_1_1maui_1_1tools_1_1_union.html#ac5b298981aee969a1710be85f4706069",tooltip=" "];
+}

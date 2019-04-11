@@ -1,0 +1,21 @@
+digraph "TagsList::removeFrom"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node142 [label="TagsList::removeFrom",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node142 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node143 [label="Tagging::removeAbstractTag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a38fdfb7dd0ce30980ad2260f76689aa0",tooltip=" "];
+  Node143 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node144 [label="TAGDB::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#acd75bc483c7dd93361783aab9480d90e",tooltip=" "];
+  Node144 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node145 [label="TAGDB::getQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#ae90d363ffa72013cdfe742c606888432",tooltip=" "];
+  Node143 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="Tagging::tag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a07318e6b117e0d35c9a7a1ad7c00d4d0",tooltip=" "];
+  Node146 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node147 [label="Tagging::id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a2b8eb93e771e3f7569420ce900d0e069",tooltip=" "];
+  Node146 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node148 [label="TAGDB::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#a9e576bf7931cc64359ea1380fec51f9f",tooltip=" "];
+}

@@ -1,0 +1,23 @@
+digraph "WebDAVClient::downloadFrom"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node38 [label="WebDAVClient::downloadFrom",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node38 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="WebDAVClient::errorReply\lHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a7c55b87f2da54a454ccd736033586ae4",tooltip=" "];
+  Node39 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="WebDAVReply::sendError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_reply.html#af2e9887105f9555aeb6d74ca45995d7a",tooltip=" "];
+  Node38 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="NetworkHelper::makeRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_helper.html#ae02921e158bb6478658d3326dd73ad0a",tooltip=" "];
+  Node41 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="NetworkHelper::setRequest\lAuthHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_helper.html#a399431d07f53fe9d51de9cc8feb82870",tooltip=" "];
+  Node41 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="NetworkHelper::setRequest\lHeaders",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_helper.html#acd2024e4fdc4c63c6b3d159f834a5b7d",tooltip=" "];
+  Node38 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="WebDAVReply::sendDownload\lProgressResponseSignal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_reply.html#ad28189810097510841d929f5170ca290",tooltip=" "];
+  Node38 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="WebDAVReply::sendDownload\lResponseSignal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_reply.html#aebfa28f91c1749d54cffc65e146dd9d0",tooltip=" "];
+}

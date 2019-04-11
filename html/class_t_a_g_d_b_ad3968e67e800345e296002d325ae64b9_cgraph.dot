@@ -1,0 +1,17 @@
+digraph "TAGDB::TAGDB"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="TAGDB::TAGDB",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="UTIL::fileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_u_t_i_l.html#ac943f29fc308bd3396df8849df657ab6",tooltip=" "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TAGDB::openDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#a0b62c9fc0279ed3fadb97a6a82ad8f9a",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TAGDB::getQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#ae90d363ffa72013cdfe742c606888432",tooltip=" "];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TAGDB::prepareCollectionDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#a6c7610ec475b25a24896dfd56add297a",tooltip=" "];
+}

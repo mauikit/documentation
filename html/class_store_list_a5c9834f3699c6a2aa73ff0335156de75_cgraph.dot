@@ -1,0 +1,11 @@
+digraph "StoreList::setProvider"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node166 [label="StoreList::setProvider",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node166 -> Node167 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node167 [label="Store::setProvider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a9bb94bce6ec9325022e4e22696f3e69b",tooltip=" "];
+}

@@ -1,0 +1,19 @@
+digraph "FMH::Downloader::setFile"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node72 [label="FMH::Downloader::setFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node72 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="Store::downloadLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a50433ec7fb0e1af311c26036918d6ca4",tooltip=" "];
+  Node73 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="Store::contentDownloadReady",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a44e5bea4ec42cb655b127eab2c1b93d7",tooltip=" "];
+  Node74 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="Store::download",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a68f2625dd14cd8cb7bdb7edf44976f0f",tooltip=" "];
+  Node75 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="StoreList::download",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#aebb696fb23a1ac7ba955ce23a0b72679",tooltip=" "];
+  Node73 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="Store::download",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a36cdf707d924249d95498fe427848971",tooltip=" "];
+}

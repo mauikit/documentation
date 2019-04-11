@@ -1,0 +1,13 @@
+digraph "utils/syncing/libwebdavclient" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c28dff6429c12561b3cf46c84bdb6431 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="syncing" fontname="Helvetica", fontsize="10", URL="dir_c28dff6429c12561b3cf46c84bdb6431.html"]
+  subgraph clusterdir_fdd29e4c9f0aff584bc58d09ff791ed4 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_fdd29e4c9f0aff584bc58d09ff791ed4.html"];
+    dir_fdd29e4c9f0aff584bc58d09ff791ed4 [shape=plaintext label="libwebdavclient"];
+    dir_d0d2ba4a2081f1b344b7e332caf3ed61 [shape=box label="lib" color="red" fillcolor="white" style="filled" URL="dir_d0d2ba4a2081f1b344b7e332caf3ed61.html"];
+  }
+  }
+}

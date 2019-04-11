@@ -1,0 +1,23 @@
+digraph "DocumentHandler::mergeFormatOnWordOrSelection"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node88 [label="DocumentHandler::mergeFormat\lOnWordOrSelection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node88 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="DocumentHandler::setBold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#a5a8f174220d039a60b64a606a17a1876",tooltip=" "];
+  Node88 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="DocumentHandler::setFont\lFamily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#ac5f183ed3fb4cb3734b81bbbe59e4df7",tooltip=" "];
+  Node88 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="DocumentHandler::setFontSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#a9a08bdefbc09663df312091b77662b63",tooltip=" "];
+  Node88 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="DocumentHandler::setItalic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#a57f25c4ba7a38e8bc1aa90a38bc2e701",tooltip=" "];
+  Node88 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="DocumentHandler::setText\lColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#ae540564011a0856e6e6cab0afa8c85bb",tooltip=" "];
+  Node88 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="DocumentHandler::setUnderline",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#a62ca6e009b2ae07dea283cc8bd1663c6",tooltip=" "];
+  Node88 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="DocumentHandler::setUppercase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#a73c8a4ad127fb04066f28d62b410c8bf",tooltip=" "];
+}

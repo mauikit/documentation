@@ -1,0 +1,23 @@
+digraph "FM::bookmarkInserted"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node60 [label="FM::bookmarkInserted",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node60 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="FM::bookmark",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a14d0a34d3377a2932245f47ac50437c1",tooltip=" "];
+  Node61 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="FM::getBookmarks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#acbf41f8d414bedff66474a6324ecf701",tooltip=" "];
+  Node62 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="PlacesList::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#a97a8a712f20cd66fe4db1dcc5a29dba2",tooltip=" "];
+  Node63 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="PlacesList::PlacesList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#a6a5f61e12f9c72591c6d333d97f93488",tooltip=" "];
+  Node63 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="PlacesList::reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#ab5382f7dc4b06d050f8a932921625b73",tooltip=" "];
+  Node65 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="PlacesList::refresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#adbf2759aafc3cf0e3169975238419f09",tooltip=" "];
+  Node60 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

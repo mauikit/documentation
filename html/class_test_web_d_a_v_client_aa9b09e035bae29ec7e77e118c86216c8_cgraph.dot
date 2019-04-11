@@ -1,0 +1,11 @@
+digraph "TestWebDAVClient::testDownload"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node29 [label="TestWebDAVClient::testDownload",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="WebDAVClient::downloadFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a1a8db9a6a138f95a1b8b68099fefc8b8",tooltip=" "];
+}

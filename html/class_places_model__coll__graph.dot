@@ -1,0 +1,59 @@
+digraph "PlacesModel"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="PlacesModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QAbstractListModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_abstract_list_model.html",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" list" ,fontname="Helvetica"];
+  Node4 [label="PlacesList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_object.html",tooltip=" "];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" count" ,fontname="Helvetica"];
+  Node6 [label="QHash\< QString, int \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" list" ,fontname="Helvetica"];
+  Node7 [label="QList\< MODEL \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fm" ,fontname="Helvetica"];
+  Node8 [label="FM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="FMDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_d_b.html",tooltip=" "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name" ,fontname="Helvetica"];
+  Node10 [label="QString",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_db" ,fontname="Helvetica"];
+  Node11 [label="QSqlDatabase",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node12 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" tag" ,fontname="Helvetica"];
+  Node12 [label="Tagging",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html",tooltip=" "];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="TAGDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html",tooltip=" "];
+  Node5 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name" ,fontname="Helvetica"];
+  Node11 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_db" ,fontname="Helvetica"];
+  Node10 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" comment\napplication\nuri\nversion" ,fontname="Helvetica"];
+  Node12 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" instance" ,fontname="Helvetica"];
+  Node14 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sync" ,fontname="Helvetica"];
+  Node14 [label="Syncing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing.html",tooltip=" "];
+  Node5 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" signalType" ,fontname="Helvetica"];
+  Node15 [label="SIGNAL_TYPE",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" password\nhost\ncurrentPath\nuser\ncopyTo" ,fontname="Helvetica"];
+  Node16 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mFile" ,fontname="Helvetica"];
+  Node16 [label="QFile",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node17 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" client" ,fontname="Helvetica"];
+  Node17 [label="WebDAVClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html",tooltip=" "];
+  Node5 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" xmlHelper" ,fontname="Helvetica"];
+  Node18 [label="XMLHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_x_m_l_helper.html",tooltip=" "];
+  Node19 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" networkHelper" ,fontname="Helvetica"];
+  Node19 [label="NetworkHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_helper.html",tooltip=" "];
+  Node5 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" networkManager" ,fontname="Helvetica"];
+  Node20 [label="QNetworkAccessManager *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" password\nhost\nusername" ,fontname="Helvetica"];
+  Node21 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" uploadQueue" ,fontname="Helvetica"];
+  Node21 [label="QStringList",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node22 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" watcher" ,fontname="Helvetica"];
+  Node22 [label="QFileSystemWatcher *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

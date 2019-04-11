@@ -1,0 +1,15 @@
+digraph "PlacesList::updateModel"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node180 [label="PlacesList::updateModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node180 -> Node181 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node181 [label="PlacesList::clearBadgeCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#a495eb49805a6efed599878d4d43b26d8",tooltip=" "];
+  Node180 -> Node182 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node182 [label="PlacesList::PlacesList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#a6a5f61e12f9c72591c6d333d97f93488",tooltip=" "];
+  Node180 -> Node183 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node183 [label="PlacesModel::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_model.html#ab42e2eafb880d45bde86b776e3172dc6",tooltip=" "];
+}

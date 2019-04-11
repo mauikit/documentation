@@ -1,0 +1,35 @@
+digraph "StoreList::StoreList"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="StoreList::StoreList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="StoreList::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#a0fe214b10f802cd801e227f9255e73e0",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Store::searchFor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#ad3579d9e889c6b2f461f71e042349cb7",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Store::perfomSearch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#acdc85be751071eda665644b5a6c9c12a",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Store::contentListResult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a447d0505d2b6f722f23ded8e4def963a",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Store::setCategory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a13aac2720d700030da955510bbac91a5",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Store::listCategories",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#af310978a22b527f740f87ea21efced44",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Store::categoryListResult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a715d8d3bdf4d43a915ae8e9c9bd166fe",tooltip=" "];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Store::setProvider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a9bb94bce6ec9325022e4e22696f3e69b",tooltip=" "];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="StoreList::sortList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#a03f5178e5cc8deb391a22853823f676d",tooltip=" "];
+  Node0 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Store::start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a299a3f281e78fdf39e232f0159ce0457",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="FMH::fileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a96fb85b0283389ba71e8a20daeab400f",tooltip=" "];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Store::providersChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#ae8f9a228a54db71b2421c3b04fe00161",tooltip=" "];
+  Node0 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="FM::toMap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#ae621062ebbf50a7669f85d5b748d898d",tooltip=" "];
+}

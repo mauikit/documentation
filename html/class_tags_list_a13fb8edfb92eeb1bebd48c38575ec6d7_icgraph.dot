@@ -1,0 +1,29 @@
+digraph "TagsList::setList"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node197 [label="TagsList::setList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node197 -> Node198 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node198 [label="TagsList::refresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#ae1bcd8b8d4d6fe1e60f309e89b7cccec",tooltip=" "];
+  Node198 -> Node199 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node199 [label="TagsList::insertToAbstract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#ae847c6c275a84caeb5d4934a27cf2cbc",tooltip=" "];
+  Node198 -> Node200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node200 [label="TagsList::insertToUrls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#ad04fdc7148242bae5e00b617132431c0",tooltip=" "];
+  Node198 -> Node201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node201 [label="TagsList::updateToAbstract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a8a9246dd7a10fe7e3f36b0ee40b4dba9",tooltip=" "];
+  Node198 -> Node202 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node202 [label="TagsList::updateToUrls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a2cabbc71124d6c58a033076ad2c27181",tooltip=" "];
+  Node197 -> Node203 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node203 [label="TagsList::setAbstract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#ad3c7d8bb39b9fd0d02fabe95568b5ec0",tooltip=" "];
+  Node197 -> Node204 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node204 [label="TagsList::setKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a78ac76b0754116a3e00900069d7d1a66",tooltip=" "];
+  Node197 -> Node205 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node205 [label="TagsList::setLot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a2cc5779e90d3e658ff564ba2e81c3c00",tooltip=" "];
+  Node197 -> Node206 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node206 [label="TagsList::setStrict",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a6cacad504fc61698a1ea026d68e00db4",tooltip=" "];
+  Node197 -> Node207 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node207 [label="TagsList::setUrls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a6b9df60a83b5b948e8409c58f31f9d2a",tooltip=" "];
+}

@@ -1,0 +1,15 @@
+digraph "StoreList::items"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node83 [label="StoreList::items",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node83 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="StoreModel::data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_model.html#a20a2b557bd072f2ac060d2714e47626d",tooltip=" "];
+  Node83 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="StoreModel::rowCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_model.html#a9285bce65a0827ad22b0ad4d16905699",tooltip=" "];
+  Node83 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="StoreModel::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_model.html#aead3acaf53ddb82090a56a062c4d2c35",tooltip=" "];
+}

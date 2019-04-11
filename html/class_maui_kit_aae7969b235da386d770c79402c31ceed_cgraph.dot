@@ -1,0 +1,15 @@
+digraph "MauiKit::registerTypes"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12 [label="MauiKit::registerTypes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="MauiKit::registerTypes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_maui_kit.html#a9be1c5fb4a518e1a4cb4913bc9dc5b37",tooltip=" "];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="MauiKit::componentUrl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_maui_kit.html#a1cfe1dff1565ef1290cb73eb5550af1b",tooltip=" "];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="MauiKit::resolveFileUrl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_maui_kit.html#a273ddf60c8eab52a6f2df3395d7156f9",tooltip=" "];
+}

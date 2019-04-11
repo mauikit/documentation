@@ -1,0 +1,19 @@
+digraph "Tagging::getUrls"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node131 [label="Tagging::getUrls",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node131 -> Node132 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node132 [label="Tagging::get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a31eafb22f7c6343f6a6e1a60c0b46d1b",tooltip=" "];
+  Node132 -> Node133 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node133 [label="TAGDB::getQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#ae90d363ffa72013cdfe742c606888432",tooltip=" "];
+  Node131 -> Node134 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node134 [label="Tagging::tag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a07318e6b117e0d35c9a7a1ad7c00d4d0",tooltip=" "];
+  Node134 -> Node135 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node135 [label="TAGDB::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#a9e576bf7931cc64359ea1380fec51f9f",tooltip=" "];
+  Node134 -> Node136 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node136 [label="Tagging::id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a2b8eb93e771e3f7569420ce900d0e069",tooltip=" "];
+}

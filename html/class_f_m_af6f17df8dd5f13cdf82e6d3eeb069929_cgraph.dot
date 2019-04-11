@@ -1,0 +1,25 @@
+digraph "FM::getDevices"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node277 [label="FM::getDevices",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node277 -> Node278 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node278 [label="FM::packItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#adef3e821a8b8bea88fce75e8b7c2a265",tooltip=" "];
+  Node278 -> Node279 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node279 [label="UTIL::fileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_u_t_i_l.html#ac943f29fc308bd3396df8849df657ab6",tooltip=" "];
+  Node278 -> Node280 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node280 [label="FMH::getFileInfoModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ac748bdab6e71b54b5817eee0ab5f63ed",tooltip=" "];
+  Node280 -> Node281 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node281 [label="FMH::getMime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ae5ec7c16319a70d5e440e697c1f77302",tooltip=" "];
+  Node280 -> Node282 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node282 [label="FMH::getIconName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ab081b4a8e2faedbe025f94fa44113bac",tooltip=" "];
+  Node282 -> Node283 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node283 [label="FMH::dirConf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a1b405335d77e0369742dde8540bc7add",tooltip=" "];
+  Node283 -> Node284 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node284 [label="FMH::fileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a96fb85b0283389ba71e8a20daeab400f",tooltip=" "];
+  Node277 -> Node285 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node285 [label="MAUIAndroid::sdDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_a_u_i_android.html#a5d577d11f874618ea84de124b98f2796",tooltip=" "];
+}

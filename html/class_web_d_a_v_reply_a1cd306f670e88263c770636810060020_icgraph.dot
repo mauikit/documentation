@@ -1,0 +1,17 @@
+digraph "WebDAVReply::sendRemoveResponseSignal"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node157 [label="WebDAVReply::sendRemoveResponse\lSignal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node157 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 [label="WebDAVClient::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a4618e31d763ce09662253d6d8fb6e6d9",tooltip=" "];
+  Node158 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node159 [label="WebDAVItem::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_item.html#a9f31b9a282138c19de6887a9f0c842d6",tooltip=" "];
+  Node158 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node160 [label="TestWebDAVClient::testRemove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_web_d_a_v_client.html#a7037977a664338362e8ca871071fd79a",tooltip=" "];
+  Node158 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node161 [label="TestWebDAVClient::testRemoveDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_web_d_a_v_client.html#a74db88d8faeb09d822df9a0feb51db72",tooltip=" "];
+}

@@ -1,0 +1,23 @@
+digraph "Tagging::setApp"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node239 [label="Tagging::setApp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node239 -> Node240 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node240 [label="Tagging::app",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a2cde86115e636c337a11765f62daf776",tooltip=" "];
+  Node240 -> Node241 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node241 [label="Tagging::id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a2b8eb93e771e3f7569420ce900d0e069",tooltip=" "];
+  Node240 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node242 [label="TAGDB::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#a9e576bf7931cc64359ea1380fec51f9f",tooltip=" "];
+  Node240 -> Node243 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node243 [label="Tagging::user",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a1e2dc1231e33e88810cf1a72bd5da1c9",tooltip=" "];
+  Node243 -> Node241 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node243 -> Node244 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node244 [label="UTIL::whoami",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_u_t_i_l.html#a6de20774f0dc1be9358394ef3e687f75",tooltip=" "];
+  Node243 -> Node245 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node245 [label="Tagging::device",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#addbf3291cb31672392f65b643a92a920",tooltip=" "];
+  Node243 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

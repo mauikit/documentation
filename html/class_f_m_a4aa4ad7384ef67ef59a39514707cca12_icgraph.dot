@@ -1,0 +1,17 @@
+digraph "FM::cloudAccountRemoved"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node77 [label="FM::cloudAccountRemoved",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node77 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="PlacesList::PlacesList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#a6a5f61e12f9c72591c6d333d97f93488",tooltip=" "];
+  Node77 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="FM::removeCloudAccount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#acd45c603c9588a261242e5b7150ce899",tooltip=" "];
+  Node79 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 [label="SyncingList::removeAccount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html#a50524cfaf5bb95817de587ea785f7486",tooltip=" "];
+  Node79 -> Node81 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node81 [label="SyncingList::removeAccount\lAndFiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html#ae368a7734c38bf8831523533ce2cad2f",tooltip=" "];
+}

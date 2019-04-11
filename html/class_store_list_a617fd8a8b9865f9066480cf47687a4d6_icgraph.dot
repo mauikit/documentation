@@ -1,0 +1,24 @@
+digraph "StoreList::postListChanged"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node104 [label="StoreList::postListChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node104 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node105 [label="StoreModel::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_model.html#aead3acaf53ddb82090a56a062c4d2c35",tooltip=" "];
+  Node104 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node106 [label="StoreList::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#a0fe214b10f802cd801e227f9255e73e0",tooltip=" "];
+  Node106 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node107 [label="StoreList::StoreList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#abf232e0d23409361dc2e1fb4c69c074d",tooltip=" "];
+  Node106 -> Node108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node108 [label="StoreList::setLimit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#a2bf832d8a4a72cd600f04445055c9243",tooltip=" "];
+  Node106 -> Node109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node109 [label="StoreList::setPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#a849bd1e4c13f95005508aa849f58b91f",tooltip=" "];
+  Node106 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node110 [label="StoreList::setQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#ab1017424c6388315cea58088f969a5a9",tooltip=" "];
+  Node106 -> Node111 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node111 [label="StoreList::setSortBy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#a0885e82072d00f963a7a692f478786d2",tooltip=" "];
+  Node104 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

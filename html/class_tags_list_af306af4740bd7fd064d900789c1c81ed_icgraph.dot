@@ -1,0 +1,19 @@
+digraph "TagsList::preItemRemoved"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node94 [label="TagsList::preItemRemoved",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node94 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="TagsList::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a376d97f90a345ee78a68681f852ec879",tooltip=" "];
+  Node94 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node96 [label="TagsList::removeFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a2d12d5f044db2df95d868de4104984a1",tooltip=" "];
+  Node94 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node97 [label="TagsList::removeFromAbstract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#adf655c1ba80195d9df464b96053d2d02",tooltip=" "];
+  Node94 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node98 [label="TagsList::removeFromUrls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a5dafe78c93d707188f842f45119f23a8",tooltip=" "];
+  Node94 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node99 [label="TagsModel::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_model.html#a6747662950cb1a3d5286417869b57aaa",tooltip=" "];
+}

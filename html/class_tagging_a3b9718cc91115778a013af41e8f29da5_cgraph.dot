@@ -1,0 +1,16 @@
+digraph "Tagging::tagUrl"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node299 [label="Tagging::tagUrl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node299 -> Node300 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node300 [label="TAGDB::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#a9e576bf7931cc64359ea1380fec51f9f",tooltip=" "];
+  Node299 -> Node301 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node301 [label="Tagging::tag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a07318e6b117e0d35c9a7a1ad7c00d4d0",tooltip=" "];
+  Node301 -> Node302 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node302 [label="Tagging::id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a2b8eb93e771e3f7569420ce900d0e069",tooltip=" "];
+  Node301 -> Node300 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,12 @@
+digraph "utils/handy.h"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node9 [label="utils/handy.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mauikit.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mauikit_8cpp.html",tooltip=" "];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="utils/handy.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$handy_8cpp.html",tooltip=" "];
+}

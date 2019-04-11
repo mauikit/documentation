@@ -1,0 +1,21 @@
+digraph "StoreList::setList"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node142 [label="StoreList::setList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node142 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node143 [label="Store::searchFor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#ad3579d9e889c6b2f461f71e042349cb7",tooltip=" "];
+  Node143 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node144 [label="Store::perfomSearch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#acdc85be751071eda665644b5a6c9c12a",tooltip=" "];
+  Node144 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node145 [label="Store::contentListResult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a447d0505d2b6f722f23ded8e4def963a",tooltip=" "];
+  Node143 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="Store::setCategory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a13aac2720d700030da955510bbac91a5",tooltip=" "];
+  Node146 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node147 [label="Store::listCategories",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#af310978a22b527f740f87ea21efced44",tooltip=" "];
+  Node147 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node148 [label="Store::categoryListResult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a715d8d3bdf4d43a915ae8e9c9bd166fe",tooltip=" "];
+}

@@ -1,0 +1,36 @@
+digraph "Tagging::getAbstractTags"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node90 [label="Tagging::getAbstractTags",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node90 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="Tagging::removeAbstractTags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#abebfcef5989f504f84dfb151cf06639b",tooltip=" "];
+  Node91 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="Tagging::updateAbstractTags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#ac9d08197884f6bd09afe8e84cde5827e",tooltip=" "];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="TagsList::updateToAbstract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a8a9246dd7a10fe7e3f36b0ee40b4dba9",tooltip=" "];
+  Node90 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="TagsList::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a13fb8edfb92eeb1bebd48c38575ec6d7",tooltip=" "];
+  Node94 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="TagsList::refresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#ae1bcd8b8d4d6fe1e60f309e89b7cccec",tooltip=" "];
+  Node95 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node96 [label="TagsList::insertToUrls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#ad04fdc7148242bae5e00b617132431c0",tooltip=" "];
+  Node95 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node97 [label="TagsList::insertToAbstract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#ae847c6c275a84caeb5d4934a27cf2cbc",tooltip=" "];
+  Node95 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node98 [label="TagsList::updateToUrls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a2cabbc71124d6c58a033076ad2c27181",tooltip=" "];
+  Node95 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node99 [label="TagsList::setAbstract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#ad3c7d8bb39b9fd0d02fabe95568b5ec0",tooltip=" "];
+  Node94 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node100 [label="TagsList::setStrict",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a6cacad504fc61698a1ea026d68e00db4",tooltip=" "];
+  Node94 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node101 [label="TagsList::setKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a78ac76b0754116a3e00900069d7d1a66",tooltip=" "];
+  Node94 -> Node102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node102 [label="TagsList::setLot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a2cc5779e90d3e658ff564ba2e81c3c00",tooltip=" "];
+  Node94 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node103 [label="TagsList::setUrls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html#a6b9df60a83b5b948e8409c58f31f9d2a",tooltip=" "];
+}

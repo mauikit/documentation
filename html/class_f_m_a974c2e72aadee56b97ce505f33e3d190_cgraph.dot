@@ -1,0 +1,34 @@
+digraph "FM::openCloudItem"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node421 [label="FM::openCloudItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node421 -> Node422 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node422 [label="Syncing::resolveFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing.html#af94159401c69e757e0e6f944a97153a8",tooltip=" "];
+  Node422 -> Node423 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node423 [label="Syncing::getCacheFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing.html#a1a6ee2e16630d4474846dd8f50ed87d7",tooltip=" "];
+  Node423 -> Node424 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node424 [label="FM::resolveUserCloudCachePath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#acae92041969d1a3bd16e149827623bcc",tooltip=" "];
+  Node423 -> Node425 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node425 [label="FMH::fileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a96fb85b0283389ba71e8a20daeab400f",tooltip=" "];
+  Node422 -> Node425 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node422 -> Node426 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node426 [label="FMH::getFileInfoModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ac748bdab6e71b54b5817eee0ab5f63ed",tooltip=" "];
+  Node426 -> Node427 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node427 [label="FMH::getMime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ae5ec7c16319a70d5e440e697c1f77302",tooltip=" "];
+  Node426 -> Node428 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node428 [label="FMH::getIconName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ab081b4a8e2faedbe025f94fa44113bac",tooltip=" "];
+  Node428 -> Node429 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node429 [label="FMH::dirConf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a1b405335d77e0369742dde8540bc7add",tooltip=" "];
+  Node429 -> Node425 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node422 -> Node430 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node430 [label="Syncing::download",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing.html#af5390b477d45fcb310b32c3630e94518",tooltip=" "];
+  Node430 -> Node431 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node431 [label="WebDAVClient::downloadFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a1a8db9a6a138f95a1b8b68099fefc8b8",tooltip=" "];
+  Node430 -> Node432 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node432 [label="Syncing::saveTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing.html#a6895a00ea0d4b07e52edb32fcd78a7ad",tooltip=" "];
+  Node432 -> Node426 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

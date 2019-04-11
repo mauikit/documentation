@@ -1,0 +1,17 @@
+digraph "DocumentHandler::setUnderline"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node156 [label="DocumentHandler::setUnderline",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node156 -> Node157 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node157 [label="DocumentHandler::mergeFormat\lOnWordOrSelection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#a3046301aae94fd351f84a2d2bfd3639d",tooltip=" "];
+  Node157 -> Node158 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 [label="DocumentHandler::textCursor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#ae55aadbeadcfd135b9c9c9af3a3baf45",tooltip=" "];
+  Node158 -> Node159 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node159 [label="DocumentHandler::textDocument",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#adf01b0d89a4b2764ce27cf36180bb07f",tooltip=" "];
+  Node156 -> Node160 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node160 [label="DocumentHandler::underline",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#aee2de473f68932f9289d8bafe7c2bfc9",tooltip=" "];
+}

@@ -1,0 +1,31 @@
+digraph "Store::download"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node78 [label="Store::download",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node78 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="Store::downloadLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a50433ec7fb0e1af311c26036918d6ca4",tooltip=" "];
+  Node79 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 [label="FMH::getFileInfoModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ac748bdab6e71b54b5817eee0ab5f63ed",tooltip=" "];
+  Node80 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node81 [label="FMH::getMime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ae5ec7c16319a70d5e440e697c1f77302",tooltip=" "];
+  Node80 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="FMH::getIconName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ab081b4a8e2faedbe025f94fa44113bac",tooltip=" "];
+  Node82 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="FMH::dirConf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a1b405335d77e0369742dde8540bc7add",tooltip=" "];
+  Node83 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="FMH::fileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a96fb85b0283389ba71e8a20daeab400f",tooltip=" "];
+  Node79 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="FMH::Downloader::setFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#ae1cfd33504af67033fbf2ef97a713cdc",tooltip=" "];
+  Node85 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="FMH::Downloader::onDownload\lProgress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#ad01b4eee6e893bc49097caf62be884fc",tooltip=" "];
+  Node85 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="FMH::Downloader::onFinished",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#a32d5a5809d7948f46ce114bf18402dcd",tooltip=" "];
+  Node85 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="FMH::Downloader::onReadyRead",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#a1377f2ad3a269cd47af55deb577e6ae1",tooltip=" "];
+  Node85 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="FMH::Downloader::onReply\lFinished",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#ac88c76eaaea717c470c2ed4f69850778",tooltip=" "];
+}

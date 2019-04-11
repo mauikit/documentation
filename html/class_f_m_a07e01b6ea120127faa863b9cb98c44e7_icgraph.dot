@@ -1,0 +1,13 @@
+digraph "FM::removeDir"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node469 [label="FM::removeDir",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node469 -> Node470 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node470 [label="SyncingList::removeAccount\lAndFiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html#ae368a7734c38bf8831523533ce2cad2f",tooltip=" "];
+  Node469 -> Node471 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node471 [label="FM::removeFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a8da3f147cc8bc3fccd137ad752352fe3",tooltip=" "];
+}

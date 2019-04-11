@@ -1,0 +1,26 @@
+digraph "fm/fmdb.h"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node25 [label="fm/fmdb.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="fm/fm.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fm_8h.html",tooltip=" "];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="fm/fm.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fm_8cpp.html",tooltip=" "];
+  Node26 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="fm/fmlist.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fmlist_8cpp.html",tooltip=" "];
+  Node26 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="fm/placeslist.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$placeslist_8cpp.html",tooltip=" "];
+  Node26 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="mauikit.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mauikit_8cpp.html",tooltip=" "];
+  Node26 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="utils/store/storelist.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$storelist_8cpp.html",tooltip=" "];
+  Node26 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="utils/syncing/syncing.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$syncing_8cpp.html",tooltip=" "];
+  Node26 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="utils/syncing/syncinglist.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$syncinglist_8cpp.html",tooltip=" "];
+  Node25 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="fm/fmdb.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fmdb_8cpp.html",tooltip=" "];
+}

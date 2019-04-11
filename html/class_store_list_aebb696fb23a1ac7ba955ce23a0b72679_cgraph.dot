@@ -1,0 +1,35 @@
+digraph "StoreList::download"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node33 [label="StoreList::download",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node33 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="Store::download",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a68f2625dd14cd8cb7bdb7edf44976f0f",tooltip=" "];
+  Node34 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="Store::contentDownloadReady",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a44e5bea4ec42cb655b127eab2c1b93d7",tooltip=" "];
+  Node35 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="Store::downloadLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a50433ec7fb0e1af311c26036918d6ca4",tooltip=" "];
+  Node36 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="FMH::getFileInfoModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ac748bdab6e71b54b5817eee0ab5f63ed",tooltip=" "];
+  Node37 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="FMH::getMime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ae5ec7c16319a70d5e440e697c1f77302",tooltip=" "];
+  Node37 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="FMH::getIconName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ab081b4a8e2faedbe025f94fa44113bac",tooltip=" "];
+  Node39 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="FMH::dirConf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a1b405335d77e0369742dde8540bc7add",tooltip=" "];
+  Node40 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="FMH::fileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a96fb85b0283389ba71e8a20daeab400f",tooltip=" "];
+  Node36 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="FMH::Downloader::setFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#ae1cfd33504af67033fbf2ef97a713cdc",tooltip=" "];
+  Node42 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="FMH::Downloader::onDownload\lProgress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#ad01b4eee6e893bc49097caf62be884fc",tooltip=" "];
+  Node42 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="FMH::Downloader::onFinished",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#a32d5a5809d7948f46ce114bf18402dcd",tooltip=" "];
+  Node42 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="FMH::Downloader::onReadyRead",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#a1377f2ad3a269cd47af55deb577e6ae1",tooltip=" "];
+  Node42 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="FMH::Downloader::onReply\lFinished",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#ac88c76eaaea717c470c2ed4f69850778",tooltip=" "];
+}

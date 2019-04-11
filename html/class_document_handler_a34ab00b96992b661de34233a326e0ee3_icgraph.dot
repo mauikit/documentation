@@ -1,0 +1,11 @@
+digraph "DocumentHandler::selectionEndChanged"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node107 [label="DocumentHandler::selection\lEndChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node107 -> Node108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node108 [label="DocumentHandler::setSelectionEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#a90d58710e30a609a7cb222446d440e1e",tooltip=" "];
+}

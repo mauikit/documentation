@@ -1,0 +1,29 @@
+digraph "Store::downloadLink"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node91 [label="Store::downloadLink",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node91 -> Node92 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="FMH::getFileInfoModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ac748bdab6e71b54b5817eee0ab5f63ed",tooltip=" "];
+  Node92 -> Node93 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="FMH::getMime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ae5ec7c16319a70d5e440e697c1f77302",tooltip=" "];
+  Node92 -> Node94 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="FMH::getIconName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ab081b4a8e2faedbe025f94fa44113bac",tooltip=" "];
+  Node94 -> Node95 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="FMH::dirConf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a1b405335d77e0369742dde8540bc7add",tooltip=" "];
+  Node95 -> Node96 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node96 [label="FMH::fileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a96fb85b0283389ba71e8a20daeab400f",tooltip=" "];
+  Node91 -> Node97 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node97 [label="FMH::Downloader::setFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#ae1cfd33504af67033fbf2ef97a713cdc",tooltip=" "];
+  Node97 -> Node98 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node98 [label="FMH::Downloader::onDownload\lProgress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#ad01b4eee6e893bc49097caf62be884fc",tooltip=" "];
+  Node97 -> Node99 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node99 [label="FMH::Downloader::onFinished",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#a32d5a5809d7948f46ce114bf18402dcd",tooltip=" "];
+  Node97 -> Node100 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node100 [label="FMH::Downloader::onReadyRead",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#a1377f2ad3a269cd47af55deb577e6ae1",tooltip=" "];
+  Node97 -> Node101 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node101 [label="FMH::Downloader::onReply\lFinished",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html#ac88c76eaaea717c470c2ed4f69850778",tooltip=" "];
+}

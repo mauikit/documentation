@@ -1,0 +1,55 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="QObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_object.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="DocumentHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="FMDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_d_b.html",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="FM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FMH::Downloader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_h_1_1_downloader.html",tooltip=" "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="FMList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_list.html",tooltip=" "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Handy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_handy.html",tooltip="The Handy class contains useful static methods to be used as an attached property to the Maui applica..."];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="KdeConnect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_kde_connect.html",tooltip=" "];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="MAUIAndroid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_a_u_i_android.html",tooltip=" "];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="MAUIKDE",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_a_u_i_k_d_e.html",tooltip=" "];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="NetworkHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_helper.html",tooltip=" "];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="NotificationClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_notification_client.html",tooltip=" "];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Notify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_notify.html",tooltip=" "];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="PlacesList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html",tooltip=" "];
+  Node0 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Store",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html",tooltip=" "];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="StoreList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html",tooltip=" "];
+  Node0 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Syncing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing.html",tooltip=" "];
+  Node0 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="SyncingList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html",tooltip=" "];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="TAGDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html",tooltip=" "];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Tagging",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html",tooltip=" "];
+  Node0 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="TagsList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_list.html",tooltip=" "];
+  Node0 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="TestWebDAVClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_test_web_d_a_v_client.html",tooltip=" "];
+  Node0 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="WebDAVClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html",tooltip=" "];
+  Node0 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="WebDAVReply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_reply.html",tooltip=" "];
+}

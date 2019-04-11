@@ -1,0 +1,21 @@
+digraph "Tagging::user"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node342 [label="Tagging::user",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node342 -> Node343 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node343 [label="Tagging::app",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a2cde86115e636c337a11765f62daf776",tooltip=" "];
+  Node343 -> Node344 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node344 [label="Tagging::setApp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a8a55be08de02a70703ab5fae75de480b",tooltip=" "];
+  Node344 -> Node345 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node345 [label="Tagging::Tagging",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#afe9c4358af8707d5024dcfb40d67d438",tooltip=" "];
+  Node345 -> Node346 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node346 [label="Tagging::getInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a7e834244f19d8e0873f728325a8a100a",tooltip=" "];
+  Node346 -> Node347 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node347 [label="FM::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a2963953441035d07e786165e7fa31d27",tooltip=" "];
+  Node347 -> Node348 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node348 [label="FM::FM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a407bfd40f7070f79a04386a2332ecd59",tooltip=" "];
+}

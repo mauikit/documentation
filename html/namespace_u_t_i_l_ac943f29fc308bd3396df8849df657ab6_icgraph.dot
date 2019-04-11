@@ -1,0 +1,40 @@
+digraph "UTIL::fileExists"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="UTIL::fileExists",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="FM::copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#ae8d94b51a8940f8a426ff0868f769f28",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="FM::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a2963953441035d07e786165e7fa31d27",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FM::FM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a407bfd40f7070f79a04386a2332ecd59",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="FM::cut",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a60f1c002743270a0b38f445b3e60b521",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="FMDB::FMDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_d_b.html#a834a91c83d4eba93d6ef4143a40c2a33",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="FM::packItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#adef3e821a8b8bea88fce75e8b7c2a265",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="FM::getBookmarks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#acbf41f8d414bedff66474a6324ecf701",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="PlacesList::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#a97a8a712f20cd66fe4db1dcc5a29dba2",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="PlacesList::PlacesList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#a6a5f61e12f9c72591c6d333d97f93488",tooltip=" "];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="PlacesList::reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#ab5382f7dc4b06d050f8a932921625b73",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="PlacesList::refresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#adbf2759aafc3cf0e3169975238419f09",tooltip=" "];
+  Node7 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="FM::getDefaultPaths",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#ad7dfcd13bfd9f22583842cac76079d3f",tooltip=" "];
+  Node13 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="FM::getDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#af6f17df8dd5f13cdf82e6d3eeb069929",tooltip=" "];
+  Node14 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="TAGDB::TAGDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#ad3968e67e800345e296002d325ae64b9",tooltip=" "];
+}

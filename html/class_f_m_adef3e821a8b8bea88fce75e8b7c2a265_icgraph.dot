@@ -1,0 +1,26 @@
+digraph "FM::packItems"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node447 [label="FM::packItems",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node447 -> Node448 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node448 [label="FM::getBookmarks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#acbf41f8d414bedff66474a6324ecf701",tooltip=" "];
+  Node448 -> Node449 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node449 [label="PlacesList::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#a97a8a712f20cd66fe4db1dcc5a29dba2",tooltip=" "];
+  Node449 -> Node450 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node450 [label="PlacesList::PlacesList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#a6a5f61e12f9c72591c6d333d97f93488",tooltip=" "];
+  Node449 -> Node451 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node451 [label="PlacesList::reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#ab5382f7dc4b06d050f8a932921625b73",tooltip=" "];
+  Node451 -> Node450 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node451 -> Node452 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node452 [label="PlacesList::refresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_places_list.html#adbf2759aafc3cf0e3169975238419f09",tooltip=" "];
+  Node447 -> Node453 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node453 [label="FM::getDefaultPaths",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#ad7dfcd13bfd9f22583842cac76079d3f",tooltip=" "];
+  Node453 -> Node449 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node447 -> Node454 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node454 [label="FM::getDevices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#af6f17df8dd5f13cdf82e6d3eeb069929",tooltip=" "];
+  Node454 -> Node449 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

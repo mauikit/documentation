@@ -1,0 +1,38 @@
+digraph "Syncing::upload"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node193 [label="Syncing::upload",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node193 -> Node194 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node194 [label="Syncing::emitError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing.html#a02d84a787aec374dbffa16931db397c1",tooltip=" "];
+  Node193 -> Node195 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node195 [label="FMH::fileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a96fb85b0283389ba71e8a20daeab400f",tooltip=" "];
+  Node193 -> Node196 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node196 [label="FMH::getFileInfoModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ac748bdab6e71b54b5817eee0ab5f63ed",tooltip=" "];
+  Node196 -> Node197 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node197 [label="FMH::getMime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ae5ec7c16319a70d5e440e697c1f77302",tooltip=" "];
+  Node196 -> Node198 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node198 [label="FMH::getIconName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#ab081b4a8e2faedbe025f94fa44113bac",tooltip=" "];
+  Node198 -> Node199 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node199 [label="FMH::dirConf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_f_m_h.html#a1b405335d77e0369742dde8540bc7add",tooltip=" "];
+  Node199 -> Node195 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node193 -> Node200 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node200 [label="Syncing::saveToCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing.html#a41081813c21c8b48f853641d0edc83e7",tooltip=" "];
+  Node193 -> Node201 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node201 [label="WebDAVClient::uploadTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a168ca7ab3edc10ab4026f6bae9a43b96",tooltip=" "];
+  Node201 -> Node202 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node202 [label="NetworkHelper::makePutRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_helper.html#a03b6ef15708fbcb872e77b5f098c620b",tooltip=" "];
+  Node202 -> Node203 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node203 [label="NetworkHelper::setRequest\lAuthHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_helper.html#a399431d07f53fe9d51de9cc8feb82870",tooltip=" "];
+  Node202 -> Node204 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node204 [label="NetworkHelper::setRequest\lHeaders",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_helper.html#acd2024e4fdc4c63c6b3d159f834a5b7d",tooltip=" "];
+  Node201 -> Node205 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node205 [label="WebDAVReply::sendUploadFinished\lResponseSignal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_reply.html#aa5f3509ac95dcf84f0948f98726c1754",tooltip=" "];
+  Node201 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node206 [label="WebDAVClient::errorReply\lHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_client.html#a7c55b87f2da54a454ccd736033586ae4",tooltip=" "];
+  Node206 -> Node207 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node207 [label="WebDAVReply::sendError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_web_d_a_v_reply.html#af2e9887105f9555aeb6d74ca45995d7a",tooltip=" "];
+}

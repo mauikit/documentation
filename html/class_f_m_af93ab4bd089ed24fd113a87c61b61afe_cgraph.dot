@@ -1,0 +1,15 @@
+digraph "FM::getTags"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node326 [label="FM::getTags",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node326 -> Node327 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node327 [label="Tagging::getUrlsTags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a26b4a7e1c63440be6fded39716da1939",tooltip=" "];
+  Node327 -> Node328 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node328 [label="Tagging::get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tagging.html#a31eafb22f7c6343f6a6e1a60c0b46d1b",tooltip=" "];
+  Node328 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node329 [label="TAGDB::getQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_g_d_b.html#ae90d363ffa72013cdfe742c606888432",tooltip=" "];
+}

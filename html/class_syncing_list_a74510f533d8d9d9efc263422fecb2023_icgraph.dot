@@ -1,0 +1,15 @@
+digraph "SyncingList::items"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node17 [label="SyncingList::items",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="SyncingModel::data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_model.html#ac99c5d1764781a9fab1e2e10d8951b84",tooltip=" "];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="SyncingModel::rowCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_model.html#a3d872d6a6c7c99260f24c6c5afcce618",tooltip=" "];
+  Node17 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="SyncingModel::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_model.html#add18cf1183b388f17c552db42bb09edc",tooltip=" "];
+}

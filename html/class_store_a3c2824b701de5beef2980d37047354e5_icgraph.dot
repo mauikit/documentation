@@ -1,0 +1,46 @@
+digraph "Store::warning"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node190 [label="Store::warning",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node190 -> Node191 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node191 [label="Store::categoryListResult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a715d8d3bdf4d43a915ae8e9c9bd166fe",tooltip=" "];
+  Node191 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node192 [label="Store::listCategories",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#af310978a22b527f740f87ea21efced44",tooltip=" "];
+  Node192 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node193 [label="Store::setCategory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a13aac2720d700030da955510bbac91a5",tooltip=" "];
+  Node193 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node194 [label="Store::searchFor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#ad3579d9e889c6b2f461f71e042349cb7",tooltip=" "];
+  Node194 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node195 [label="StoreList::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#a0fe214b10f802cd801e227f9255e73e0",tooltip=" "];
+  Node195 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node196 [label="StoreList::StoreList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#abf232e0d23409361dc2e1fb4c69c074d",tooltip=" "];
+  Node195 -> Node197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node197 [label="StoreList::setLimit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#a2bf832d8a4a72cd600f04445055c9243",tooltip=" "];
+  Node195 -> Node198 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node198 [label="StoreList::setPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#a849bd1e4c13f95005508aa849f58b91f",tooltip=" "];
+  Node195 -> Node199 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node199 [label="StoreList::setQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#ab1017424c6388315cea58088f969a5a9",tooltip=" "];
+  Node195 -> Node200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node200 [label="StoreList::setSortBy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#a0885e82072d00f963a7a692f478786d2",tooltip=" "];
+  Node190 -> Node201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node201 [label="Store::contentDownloadReady",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a44e5bea4ec42cb655b127eab2c1b93d7",tooltip=" "];
+  Node201 -> Node202 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node202 [label="Store::download",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a68f2625dd14cd8cb7bdb7edf44976f0f",tooltip=" "];
+  Node202 -> Node203 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node203 [label="StoreList::download",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store_list.html#aebb696fb23a1ac7ba955ce23a0b72679",tooltip=" "];
+  Node190 -> Node204 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node204 [label="Store::contentListResult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a447d0505d2b6f722f23ded8e4def963a",tooltip=" "];
+  Node204 -> Node205 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node205 [label="Store::perfomSearch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#acdc85be751071eda665644b5a6c9c12a",tooltip=" "];
+  Node205 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node190 -> Node206 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node206 [label="Store::downloadLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a50433ec7fb0e1af311c26036918d6ca4",tooltip=" "];
+  Node206 -> Node201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node206 -> Node207 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node207 [label="Store::download",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_store.html#a36cdf707d924249d95498fe427848971",tooltip=" "];
+  Node190 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

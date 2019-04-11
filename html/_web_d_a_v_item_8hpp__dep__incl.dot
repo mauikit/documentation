@@ -1,0 +1,35 @@
+digraph "utils/syncing/libwebdavclient/lib/dto/WebDAVItem.hpp"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="utils/syncing/libwebdavclient\l/lib/dto/WebDAVItem.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="utils/syncing/libwebdavclient\l/lib/utils/WebDAVReply.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_web_d_a_v_reply_8hpp.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="utils/syncing/libwebdavclient\l/lib/WebDAVClient.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_web_d_a_v_client_8hpp.html",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="utils/syncing/libwebdavclient\l/lib/dto/WebDAVItem.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_web_d_a_v_item_8cpp.html",tooltip=" "];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="utils/syncing/libwebdavclient\l/lib/tests/TestWebDAVClient.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_test_web_d_a_v_client_8cpp.html",tooltip=" "];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="utils/syncing/libwebdavclient\l/lib/WebDAVClient.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_web_d_a_v_client_8cpp.html",tooltip=" "];
+  Node6 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="utils/syncing/syncing.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$syncing_8cpp.html",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="utils/syncing/libwebdavclient\l/lib/utils/WebDAVReply.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_web_d_a_v_reply_8cpp.html",tooltip=" "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="utils/syncing/libwebdavclient\l/lib/utils/XMLHelper.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_x_m_l_helper_8hpp.html",tooltip=" "];
+  Node12 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="utils/syncing/libwebdavclient\l/lib/utils/XMLHelper.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_x_m_l_helper_8cpp.html",tooltip=" "];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

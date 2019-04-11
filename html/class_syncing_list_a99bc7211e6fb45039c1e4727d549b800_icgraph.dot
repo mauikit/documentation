@@ -1,0 +1,23 @@
+digraph "SyncingList::preListChanged"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node43 [label="SyncingList::preListChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node43 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="SyncingList::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html#aa544983e95535d286dbdf99480c607c5",tooltip=" "];
+  Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="SyncingList::SyncingList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html#ac1d676140cfc251a8000ac1152c7706f",tooltip=" "];
+  Node44 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="SyncingList::refresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html#ac2fd41bdb057f600db30b3485948d5e4",tooltip=" "];
+  Node46 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="SyncingList::removeAccount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html#a50524cfaf5bb95817de587ea785f7486",tooltip=" "];
+  Node46 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="SyncingList::removeAccount\lAndFiles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html#ae368a7734c38bf8831523533ce2cad2f",tooltip=" "];
+  Node44 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="SyncingList::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html#a725d073f051afd1e8986aeeb76aade8f",tooltip=" "];
+  Node43 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="SyncingModel::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_model.html#add18cf1183b388f17c552db42bb09edc",tooltip=" "];
+}

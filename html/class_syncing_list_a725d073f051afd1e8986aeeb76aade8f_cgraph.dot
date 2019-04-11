@@ -1,0 +1,21 @@
+digraph "SyncingList::insert"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="SyncingList::insert",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="FM::addCloudAccount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a1201909fe2de45de5b26ac2455fa7462",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="FMDB::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_d_b.html#afc495c661d1e3d4305daf8380d027c59",tooltip=" "];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SyncingList::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_syncing_list.html#aa544983e95535d286dbdf99480c607c5",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="FM::getCloudAccounts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#ab35ae365933e06aeafb9e7e60d0484e3",tooltip=" "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="FM::get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m.html#a8d5fbc7b4e91a588e0b84d01ca221def",tooltip=" "];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="FMDB::getQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_m_d_b.html#add4db2d5a6ea1f0cda68a3310a5e4371",tooltip=" "];
+}

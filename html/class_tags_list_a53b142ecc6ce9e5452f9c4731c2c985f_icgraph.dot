@@ -1,0 +1,15 @@
+digraph "TagsList::items"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node51 [label="TagsList::items",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node51 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="TagsModel::data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_model.html#a4aee469f1d61f72003316bfc9b75a4ff",tooltip=" "];
+  Node51 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="TagsModel::rowCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_model.html#a689a1081b579931e30d4eb6191ccccd5",tooltip=" "];
+  Node51 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="TagsModel::setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tags_model.html#a6747662950cb1a3d5286417869b57aaa",tooltip=" "];
+}

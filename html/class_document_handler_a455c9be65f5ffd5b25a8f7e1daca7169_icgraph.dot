@@ -1,0 +1,13 @@
+digraph "DocumentHandler::fileUrlChanged"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node44 [label="DocumentHandler::fileUrl\lChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="DocumentHandler::load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#ac644b1d1d0b7e38fdbd2785e480bffcc",tooltip=" "];
+  Node44 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="DocumentHandler::saveAs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_handler.html#ad6af1e8ccdaecb0bb37d35cc0c5193c9",tooltip=" "];
+}
